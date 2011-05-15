@@ -1,0 +1,9 @@
+libunicode-ruby (0.15) 2005Q3; urgency=low
+
+  * Initial Release.
+
+ -- Jan Becvar <jan.becvar@solnet.cz>  Sun, 28 Nov 2004 18:56:02 +0100
+
+Local variables:
+mode: debian-changelog
+End:

@@ -1,0 +1,1 @@
+shlibs:Depends=libgcc1 (>= 1:4.1.1-21), libruby1.8 (>= 1.8.6.111), libicu34, libc6 (>= 2.4)

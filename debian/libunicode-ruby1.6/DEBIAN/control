@@ -1,0 +1,15 @@
+Package: libunicode-ruby1.6
+Version: 0.15
+Section: interpreters
+Priority: optional
+Architecture: i386
+Depends: libruby, libicu32
+Conflicts: libicu-ruby
+Installed-Size: 180
+Maintainer: Jan Becvar <jan.becvar@solnet.cz>
+Source: libunicode-ruby
+Description: Ruby 1.6 wrapper for International Components for Unicode (icu)
+  ICU is a C++ and C library that provides robust and full-featured Unicode
+  and locale support.
+  .
+  This package contains ruby 1.8 wrapper for ICU.

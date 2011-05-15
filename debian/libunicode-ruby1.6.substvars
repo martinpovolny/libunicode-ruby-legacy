@@ -1,0 +1,1 @@
+shlibs:Depends=libc6 (>= 2.2.4-4), libicu32, libruby (>= 1.6.7-3woody3)
