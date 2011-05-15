@@ -1,0 +1,13 @@
+## unicode.rb HOWTO
+require 'unicode'
+
+s = "ŠkOlA ŽiVotA. "
+
+puts s.u_count(:chars, :cs)
+puts s.u_split_to(:chars, :cs).join('-')
+puts s.u_upcase
+puts s.u_downcase
+
+cs_coll ||= UCollator.new(:cs_CS)
+keys.sort{ |a,b| cs_coll.cmp(a,b) }
+
